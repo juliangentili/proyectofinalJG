@@ -1,0 +1,15 @@
+@media only screen and (max-width: 780px) {img.foto_product {border-radius:12%;
+    height: 20%;
+    max-width: 150px;
+    } .productosfyq figure { width: 38%;
+        margin: 10px 20px 10px 20px;}
+        .grid{display: block;
+            flex-direction: column;}
+            p{margin-left: 26px;
+            box-sizing: border-box;}
+            h2{display: block;}
+            .margin-nav{height:50px;
+                padding-bottom: 10px;}
+                footer div{display: block;}
+                footer div svg{height: 20px;
+                width: 50px;}

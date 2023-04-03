@@ -1,0 +1,60 @@
+.grid{
+    display: grid;
+    justify-content: center;
+    text-align: center; 
+}
+.grid_filas_columnas{  
+grid-template-columns: 500px 500px;
+grid-template-rows: 300px 300px 300px 300px  ;
+grid-template-areas:
+ "dibumartinez dibumartinez"
+ "nicootamendi cutiromero"
+ "rodridepaul julianalvarez"
+ "leomessi leomessi";}
+
+.bg-color{color: blue;}
+/* gird de mis imagenes de seccion picadas */
+
+.Dibumartinez{
+    grid-area: dibumartinez;
+    width: 99%;
+    height: 299%;
+}
+.nicootamendi{
+    grid-area: nicootamendi;
+    width: 100%;
+    height: 299%;
+}
+
+.cutiromero{
+    grid-area: cutiromero;
+    width: 100%;
+    height: 299%;
+}
+.rodridepaul{
+    grid-area: rodridepaul;
+    width: 100%;
+    height: 299px;
+
+}
+.julianalvarez{
+    grid-area: julianalvarez;
+    width: 100%;
+    height: 299%;}
+
+.leomessi{
+    grid-area: leomessi;
+    width: 100%;
+    height: 299%;
+ 
+}
+
+
+
+
+.bgimg{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;; color: rgb(252, 248, 10);}
+.bgimg2{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10)}
+.bgimg3{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10)}
+.bgimg4{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10)}
+.bgimg5{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10)}
+.bgimg6{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10)}

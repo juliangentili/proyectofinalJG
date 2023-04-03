@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Asap:wght@800&display=swap');
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+*{box-sizing: border-box;}
+
+h1{color: rgb(105, 102, 102); background:rgb(105, 236, 225);
+text-decoration: underline;
+}
+h1{font-family: 'Asap', sans-serif;
+    font-weight: 800;
+    font-size: 4.5rem;}
+
+label {color: black; background:rgb(105, 236, 225);
+font-size: 3rem;}
+
+nav {
+font-size: 3rem;
+justify-content: space-around;}
+
+nav div {background:rgb(105, 236, 225);}
+
+nav div ul li a {padding-left: 3rem!important;color: blueviolet;}
+
+
+
+   
+
+                
+h2{ font-family:'Asap', sans-serif;
+    margin: 250px; 
+    background:rgb(105, 236, 225);
+    color: color: rgb(105, 102, 102);
+    font: ;
+    font-weight: 700;
+    font-size: 3.2rem;}
+
+p{ font-family: "nunito";
+    font-weight: 500;
+    font-size: 2.5rem;}
+
+header, table{background-color: yellow;
+    color: rgb(8, 8, 8);
+    font-family: "nunito";
+    font-weight: 500;
+    font-size: 3rem;}
+
+/* footer*/    
+
+footer {background:rgb(105, 236, 225);
+font-size: 2rem;}
+
+footer div svg{color: rgb(252, 252, 252);
+    height: 80px;
+    width: 80px ; 
+    justify-content: space-around;
+}
+.divfooter{display: block;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+margin-left: 1300px;}
+
+footer div{display: flex;
+justify-content:space-evenly;}
+
+footer{margin-top: 20%;}
+
+
+
+.texto_decorado{
+    text-decoration-line: underline;}
+
+.text_left{text-align: left ;}
+.text_center{text-align: center;}
+.tex_righ{text-align: right;}
+
+.bg_fondocolor{background-color: bisque;}
+
+.bg_imgfondo{background-image: url(../IMG/fondo-blanco-negro-lunas-estrellas_1110-353.webp);}
+
+.contenedor{width:60%;
+height: 400px;
+justify-content: center;
+margin-left: 16%;}
+
+.contenedor_1{
+    width: 3.1%;
+    margin-top: 100px ;
+margin-right: 100px;
+margin-bottom: 100px;
+margin-left: 100px;}
+
+._contenedorifmaps{
+    width: 50%;
+    height: auto;
+    margin-left: 400px;
+}
+.contenedor_2{padding-top:10px;
+padding-right: 10px;
+padding-bottom: 40px;
+padding-left: 50px;}
+
+.contenedor_3{margin-top: 100px;
+margin-bottom: 50px; display: block;
+} 
+
+
+.contenedor_4{
+    margin-top: 100px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+width: 20%;
+height: 20%;}
+
+.contenedor_6{
+    width: 3.1%;
+    margin-top: 100px ;
+margin-right: 100px;
+margin-bottom: 100px;
+margin-left: 100px;}
+
+.textsize{font-size: 3rem;
+    color: rgb(105, 102, 102);
+font-family: "nunito";font-weight: 500;}  
+
+
+img.foto_product{
+    height: 250px;
+    width: 250px;
+}
+
+.conteinter_7{margin-top: 3%;}
+ 
+
+.conteiner_8{display: flex;}
+
+
+
+.conteiner_10{height: 10px;}
+
+.productosfyq{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(55, 208, 219, 0.342);
+    border-radius: 80px;
+    border: rgb(24, 0, 241);
+    margin-right: 1px;
+}
+  .productosfyq figure { width: 28%;
+margin: 10px 20px 10px 20px;}
+
+
+ .productosfyq figure p{font-size: 2rem;
+    font-family: "nunito"; margin-top: 20px;
+   margin-right: 10px;}
+
+      .productosfyq figure figcaption {color: black;
+    font-size: 1.5rem;}
+
+     .productosfyq figure button{border-radius: 10px aliceblue;
+    background-color: rgb(5, 0, 0); color: white; border-radius: 2px; padding: 5px;}
+
+
+.text-aling-center{text-align: center;}    
+
+nav div img{height: 92px; width: 100px; margin-top: 10px}
+
+.margin-footer-picadas{margin-top: 50%;}
+
+.contenedorimg{width: 100px;
+height: 100px;}
+
+
+.margin-nav-pic{margin-top:1px;
+margin-right: 20px;
+margin-left: 20px;}
+
+
+.margin-nav{height:50px;
+padding-bottom: 10px;}
+
+.contenedor12{width: 200px;}
+
+
+
+
+
+        

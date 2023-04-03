@@ -1,0 +1,68 @@
+
+
+
+
+@media only screen and (max-width: 780px){
+    
+            
+    .grid{display: block;}
+    .grid_filas_columnas{    
+                grid-template-columns: 50px;
+                grid-template-rows: 550px 550px 550px 550px 550px 550px ;
+                grid-template-areas:
+                 "dibumartinez"
+                 "nicootamendi"
+                 "cutiromero"
+                 "rodridepaul" 
+                 "julianalvarez"
+                 "leomessi";}
+                 .bgimg{font-size: 1rem}
+                 .bgimg2{font-size: 1rem}
+                 .bgimg3{font-size: 1rem}
+                 .bgimg4{font-size: 1rem}
+                 .bgimg5{font-size: 1rem}
+                 .bgimg6{font-size: 1rem}
+
+                 main{overflow-x: hidden}
+                 p {text-align: center;}
+                 h1 , h2{margin: 44px;}
+                 nav div a img{height: 70px;
+                width: 70px;}
+                p{margin-left: 500px;
+                margin-right: 500px;}}
+                 
+                
+                .Dibumartinez{
+                    grid-area: dibumartinez;
+                    width: 100%;
+                    height: 279px;
+                }
+                .nicootamendi{
+                    grid-area: nicootamendi;
+                    width: 100%;
+                    height: 279px;
+                }
+                
+                .cutiromero{
+                    grid-area: cutiromero;
+                    width: 100%;
+                    height: 279px;
+                }
+                .rodridepaul{
+                    grid-area: rodridepaul;
+                    width: 100%;
+                    height: 279px;
+                
+                }
+                .julianalvarez{
+                    grid-area: julianalvarez;
+                    width: 100%;
+                    height: 279px;}
+                
+                .leomessi{
+                    grid-area: leomessi;
+                    width: 100%;
+                    height: 279px;
+                 
+                }
+                
