@@ -145,8 +145,9 @@ div.text_center {
   align-items: center;
 }
 
+
 .navbar-light.navbar-toggler {
-  color: rgba(247, 1, 1, 0.55);
+  color: rgba(253, 0, 0, 0.55);
   border-color: rgba(71, 1, 1, 0.1);
   background-color: rgb(224, 11, 11);
 }
