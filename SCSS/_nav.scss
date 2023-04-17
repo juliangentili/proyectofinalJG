@@ -1,0 +1,25 @@
+nav {
+    font-size: $fontSizenav;
+    justify-content: space-around;
+ 
+    div {background-color: $mainColor;
+        ul
+         {li
+            {a
+                 {color: $segundoColor !important;
+            padding-left: 3rem!important;}
+        }
+       
+    }
+    img{height: 43px;
+      width: 100px;
+    margin-left: 10px;
+border-radius: 50px;}
+  }
+  
+}
+
+
+.nav-link{margin-left: 80px;}
+
+.navbar-toggler{background-color: $segundoColor !important;}

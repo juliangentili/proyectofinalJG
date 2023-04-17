@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(163, 167, 134) !important;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500px;
+  font-size: 3rem;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: "nunito", sans-serif;
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 37px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  margin: 50px;
+  font-size: 4.5rem !important;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100%;
+}
+
+main form {
+  margin-top: 100px;
+}
+
+main iframe {
+  margin-top: 100px;
+}
+
+table {
+  width: 100%;
+  height: 300px;
+  background-color: yellow;
+  color: rgb(8, 8, 8);
+  font-family: "nunito";
+  font-size: 3rem;
+}
+
+label {
+  color: rgb(226, 17, 17);
+  font-size: 2rem;
+}
+
+.productosfyq {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-right: 1px;
+}
+.productosfyq figure {
+  width: 28%;
+  margin: 10px 20px 10px 20px;
+}
+.productosfyq figure p {
+  font-size: 2rem;
+  font-family: "nunito";
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.productosfyq figure figcaption {
+  color: rgb(78, 25, 92);
+  font-size: 1.5rem;
+}
+.productosfyq figure button {
+  border-radius: 5px;
+  color: rgb(78, 25, 92);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 5px;
+  text-decoration: underline;
+  font-family: "nunito";
+}
+
+.img404 {
+  width: 80%;
+  display: block;
+  align-items: center;
+  height: 400px;
+  margin: 80px 80px;
+}
+
+div.text_center {
+  font-size: 3rem;
+  margin-top: 40px;
+}
+
+.conteiner_8 {
+  display: flex;
+}
+.conteiner_8 img {
+  width: 50%;
+}
+
+.textotach {
+  text-decoration: line-through;
+}
+
+.margin-nav, .contenedor5 {
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+
+.contenedor12 {
+  width: 200px;
+}
+
+.contenedor4 {
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedor4 figcaption {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: overline;
+}
+
+.contenedor5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-light.navbar-toggler {
+  color: rgba(247, 1, 1, 0.55);
+  border-color: rgba(71, 1, 1, 0.1);
+  background-color: rgb(224, 11, 11);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: black !important;
+  position: absolute;
+}
+
+.contenedor7 {
+  width: 63%;
+  height: 448px;
+  margin-left: 16%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.contenedor_1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.texto_decorado {
+  text-decoration-line: underline;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.tex_righ {
+  text-align: right;
+}
+
+.contenedor_2 {
+  margin-top: 90px;
+}
+
+.contenedor_3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+div.contenedor_2 {
+  margin-top: 100px;
+  font-family: "Dosis", sans-serif;
+  font-size: 2rem;
+}
+
+img.foto_product {
+  height: 250px;
+  width: 250px;
+}
+
+.imgfyq {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 50px;
+}
+
+.grid_filas_columnas {
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-areas: "dibumartinez dibumartinez" "nicootamendi cutiromero" "rodridepaul julianalvarez" "leomessi leomessi";
+}
+
+.bg-color {
+  color: blue;
+}
+
+.Dibumartinez {
+  grid-area: dibumartinez;
+  width: 100px;
+  height: 200px;
+}
+
+.nicootamendi {
+  grid-area: nicootamendi;
+  width: 100px;
+  height: 200px;
+}
+
+.cutiromero {
+  grid-area: cutiromero;
+  width: 100px;
+  height: 200px;
+}
+
+.rodridepaul {
+  grid-area: rodridepaul;
+  width: 100px;
+  height: 200px;
+}
+
+.julianalvarez {
+  grid-area: julianalvarez;
+  width: 100px;
+  height: 200px;
+}
+
+.leomessi {
+  grid-area: leomessi;
+  width: 100px;
+  height: 200px;
+}
+
+.bgimg {
+  background-image: url(../IMG/img_picadas1.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+.bgimg2 {
+  background-image: url(../IMG/img_picadas2.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+.bgimg3 {
+  background-image: url(../IMG/img_picadas3.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+.bgimg4 {
+  background-image: url(../IMG/img_picadas4.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+.bgimg5 {
+  background-image: url(../IMG/img_picadas5.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+.bgimg6 {
+  background-image: url(../IMG/img_picadas6.jpg);
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-top: 150px;
+  color: rgb(252, 248, 10);
+  width: 100%;
+  height: 300px;
+}
+
+nav {
+  font-size: 3rem;
+  justify-content: space-around;
+}
+nav div {
+  background-color: rgb(0, 0, 0);
+}
+nav div ul li a {
+  color: rgb(255, 255, 255) !important;
+  padding-left: 3rem !important;
+}
+nav div img {
+  height: 43px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+.nav-link {
+  margin-left: 80px;
+}
+
+.navbar-toggler {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  font-size: 2rem;
+  margin-top: 20%;
+}
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer div svg {
+  color: rgb(255, 255, 255);
+  height: 80px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 380px) {
+  .grid {
+    display: block;
+  }
+  .grid_filas_columnas {
+    grid-template-columns: 50px;
+    grid-template-rows: 550px 550px 550px 550px 550px 550px;
+    grid-template-areas: "dibumartinez" "nicootamendi" "cutiromero" "rodridepaul" "julianalvarez" "leomessi";
+  }
+  .bgimg {
+    font-size: 1rem;
+  }
+  .bgimg2 {
+    font-size: 1rem;
+  }
+  .bgimg3 {
+    font-size: 1rem;
+  }
+  .bgimg4 {
+    font-size: 1rem;
+  }
+  .bgimg5 {
+    font-size: 1rem;
+  }
+  .bgimg6 {
+    font-size: 1rem;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  p {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  h1, h2 {
+    margin-top: 44px;
+  }
+  nav div a img {
+    margin-left: 0px;
+    height: 68%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Dibumartinez {
+    grid-area: dibumartinez;
+    width: 100%;
+    height: 279px;
+  }
+  .nicootamendi {
+    grid-area: nicootamendi;
+    width: 100%;
+    height: 279px;
+  }
+  .cutiromero {
+    grid-area: cutiromero;
+    width: 100%;
+    height: 279px;
+  }
+  .rodridepaul {
+    grid-area: rodridepaul;
+    width: 100%;
+    height: 279px;
+  }
+  .julianalvarez {
+    grid-area: julianalvarez;
+    width: 100%;
+    height: 279px;
+  }
+  .leomessi {
+    grid-area: leomessi;
+    width: 100%;
+    height: 279px;
+  }
+  img.foto_product {
+    border-radius: 8%;
+    height: 20%;
+    max-width: 150px;
+  }
+  .productosfyq figure {
+    width: 38%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .contenedor {
+    height: 800%;
+    width: 80%;
+  }
+  .grid {
+    display: block;
+    flex-direction: column;
+  }
+  p {
+    margin-left: 26px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+  }
+  h2 {
+    display: block;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .margin-nav, .contenedor5 {
+    height: 50px;
+    padding-bottom: 10px;
+  }
+  footer div svg {
+    height: 20px;
+    width: 50px;
+  }
+  main section figure p {
+    margin-left: 0px;
+  }
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer div svg {
+    height: 20px;
+    width: 50px;
+  }
+  nav div img {
+    height: 118%;
+    width: 129%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .contenedor7 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .conteiner8 img {
+    width: 100%;
+  }
+  .productosfyq figure {
+    width: 100%;
+  }
+  img.foto_product {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+  }
+  table {
+    width: 100%;
+    height: 137px;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  .contenedor4 {
+    display: block;
+    width: 100%;
+  }
+  .contenedor_1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+  }
+  form.contenedor_1 {
+    width: 10px;
+    height: 10px;
+  }
+  .img404 {
+    width: 100%;
+    align-items: center;
+    height: 400px;
+    margin: 57px 0px;
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

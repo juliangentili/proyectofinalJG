@@ -1,0 +1,47 @@
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{ background-color:$bgcolor !important} 
+
+
+p{font-family: $font2;
+    font-weight: 500px;
+    font-size: $fontSizenav;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;}
+
+
+h1,h2{font-family: $font;
+    font-weight: 800;
+    font-size:$fontSizeh;
+    color:$mainColor;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin: 50px;
+    font-size:$fontSizeh !important;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100%;
+}
+        
+
+
+
+
+
+
+
+
+

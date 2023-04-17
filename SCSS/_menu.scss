@@ -1,0 +1,236 @@
+
+
+main form{margin-top: 100px;}
+main iframe{margin-top: 100px;}
+
+
+
+
+table{width: 100%;
+height: 300px;
+background-color: yellow;
+    color: rgb(8, 8, 8);
+    font-family: "nunito";
+    font-size: 3rem;
+}    
+label {color: rgb(226, 17, 17);
+    font-size: 2rem;}
+
+
+//clases y selectores!
+
+.productosfyq{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin-right: 1px;
+        figure { width: 28%;
+            margin: 10px 20px 10px 20px;
+            p{font-size: 2rem;
+                font-family: "nunito"; margin-top: 20px;
+               margin-right: 10px;}
+            figcaption {color: rgb(78, 25, 92);
+                font-size: 1.5rem;}
+            button{border-radius: 5px ; color:rgb(78, 25, 92);
+                    background-color: rgb(0, 0, 0); color: white; padding: 5px;text-decoration:underline;
+                font-family: "nunito";}        
+            }
+    }
+
+
+.img404{width: 80%;
+    display: block;
+    align-items: center;
+    height: 400px;
+    margin: 80px 80px;}
+
+div.text_center{font-size: $fontSizenav;
+margin-top: 40px;}
+
+
+  
+
+
+
+
+
+            
+
+.conteiner_8{display: flex;
+    img{width: 50%;}
+}
+
+
+    
+.textotach{text-decoration: line-through;}
+
+
+
+    
+    
+.margin-nav{margin-bottom: 90px;
+        margin-top: 100px;}
+    
+.contenedor12{width: 200px;}
+
+
+.contenedor4{@include flex(row,space-evenly,center);
+    figcaption {font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: overline;}
+}
+
+    
+.contenedor5{
+    @extend .margin-nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+//tutores estos dos propiedades se compilan pero no se ejecutan 
+.navbar-light.navbar-toggler {
+    color: rgba(247, 1, 1, 0.55);
+    border-color: rgba(71, 1, 1, 0.1);
+    background-color: rgb(224, 11, 11);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: black !important;
+    position: absolute;}
+
+    //
+
+.contenedor7{
+    width: 63%;
+    height: 448px;
+    margin-left: 16%;
+    margin-top: 2%;
+    margin-bottom: 3%;}
+
+.contenedor_1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-evenly;}
+
+.texto_decorado{text-decoration-line: underline;}
+
+.text_left{text-align: left ;}
+
+.text_center{text-align: center;}
+
+.tex_righ{text-align: right;}    
+
+.contenedor_2{margin-top: 90px;}
+
+.contenedor_3{display: flex;
+justify-content: center;
+margin-top: 150px;
+margin-bottom: 80px;}
+
+div.contenedor_2{margin-top: 100px;
+    font-family:'Dosis', sans-serif;
+    font-size: 2rem;}
+    
+    
+    
+    
+img.foto_product{
+        height: 250px;
+        width: 250px;
+    }
+    
+.imgfyq{height: 100px;
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+
+// grid de picadas // 
+
+.grid{
+    display: grid;
+    justify-content:center;
+    text-align: center;
+grid-gap: 50px;}
+
+.grid_filas_columnas{
+    grid-template-columns: 500px 500px;
+grid-template-rows: 300px 300px 300px 300px  ;
+grid-template-areas:
+ "dibumartinez dibumartinez"
+ "nicootamendi cutiromero"
+ "rodridepaul julianalvarez"
+ "leomessi leomessi";}
+
+
+.bg-color{color: blue;}
+
+
+.Dibumartinez{
+    grid-area: dibumartinez;
+    width: 100px;
+    height: 200px;
+}
+.nicootamendi{
+    grid-area: nicootamendi;
+    width: 100px;
+    height: 200px;
+}
+
+.cutiromero{
+    grid-area: cutiromero;
+    width: 100px;
+    height: 200px;
+}
+.rodridepaul{
+    grid-area: rodridepaul;
+    width: 100px;
+    height: 200px;
+
+}
+.julianalvarez{
+    grid-area: julianalvarez;
+    width: 100px;
+    height: 200px;}
+
+.leomessi{
+    grid-area: leomessi;
+    width: 100px;
+    height: 200px;
+ 
+}
+
+
+
+
+.bgimg{background-image: url(../IMG/img_picadas1.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px; color: rgb(252, 248, 10);width: 100%;height: 300px;}
+.bgimg2{background-image: url(../IMG/img_picadas2.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+.bgimg3{background-image: url(../IMG/img_picadas3.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+.bgimg4{background-image: url(../IMG/img_picadas4.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+.bgimg5{background-image: url(../IMG/img_picadas5.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+.bgimg6{background-image: url(../IMG/img_picadas6.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+
+
+
+
+
+
+
+
+
+ 
+    
+    
+   
+          
+    
+         
