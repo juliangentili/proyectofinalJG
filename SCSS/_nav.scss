@@ -1,24 +1,22 @@
 nav {
     font-size: $fontSizenav;
     justify-content: space-around;
-   
-    
- 
     div {background-color: $mainColor;
-         height: 150px;  
+         height: 150px !important;  
         ul
          {li
             {a
-                 {color: $segundoColor !important;
-            padding-left: 3rem!important;}
+              {color: $segundoColor !important;
+              padding-left: 3rem!important;}
         }
        
     }
-    img{height: 43px;
-      width: 100px;
-    margin-left: 10px;
-    border-radius: 50px;
-    display: none;}
+    img{height: 98px;
+      width: 169px;
+      margin-left: 10px;
+      border-radius: 8px;
+      margin: 24px;
+       }
   }
 }
   
@@ -28,7 +26,7 @@ nav {
 
 
 
-.bgcolornav {
+.bgcolornav {margin-top: 50px;
     height: 45px;
     background-color: $bgcolor2;
     width: 100%;

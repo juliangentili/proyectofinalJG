@@ -6,12 +6,13 @@ main iframe{margin-top: 100px;}
 
 
 
-table{width: 100%;
+table{width: 80%;
 height: 300px;
 background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
     font-family: "nunito";
     font-size: 3rem;
+    margin-left: 110px;
     margin-bottom: 70px;
 }    
 label {color: rgb(226, 17, 17);
@@ -220,9 +221,9 @@ grid-template-areas:
 }
 
 
-.w-100{
-padding-right: 200px;
-padding-left: 200px;}
+.w-100{width: 80%;
+padding-right: 20%;
+padding-left: 20%;}
 
 .bgimg{background-image: url(../IMG/img_picadas1.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px; color: rgb(0, 0, 0);width: 100%;height: 300px; background-repeat: no-repeat;}
 .bgimg2{background-image: url(../IMG/img_picadas2.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}

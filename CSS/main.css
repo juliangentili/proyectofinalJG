@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: rgba(185, 175, 175, 0.932) !important;
+  background-color: rgba(255, 255, 255, 0.932) !important;
 }
 
 p {
@@ -16,22 +16,22 @@ p {
   margin-right: 70px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: black;
+  color: rgb(5, 5, 5);
   text-align: center;
 }
 
 h1, h2 {
   font-family: "nunito", sans-serif;
-  font-weight: 800 !important;
+  font-weight: 700 !important;
   font-size: 4.5rem;
   color: rgb(0, 0, 0);
   text-align: center;
-  margin-top: 37px;
-  margin-bottom: 25px;
+  margin-top: 36px;
+  margin-bottom: 29px;
   margin: auto;
   background-color: #6a00f7;
-  font-size: 2.5rem;
-  width: 495px;
+  font-size: 2.4rem;
+  width: 491px;
   border-radius: 5px;
 }
 
@@ -51,7 +51,7 @@ header {
   display: inline-block;
   background-color: #6635dc;
   position: relative;
-  width: 100%;
+  width: 239px;
   font-size: 4rem;
   text-align: center;
   margin: 50px;
@@ -66,12 +66,13 @@ main iframe {
 }
 
 table {
-  width: 100%;
+  width: 80%;
   height: 300px;
   background-color: rgb(255, 255, 255);
   color: rgb(8, 8, 8);
   font-family: "nunito";
   font-size: 3rem;
+  margin-left: 110px;
   margin-bottom: 70px;
 }
 
@@ -306,8 +307,9 @@ img.foto_product {
 }
 
 .w-100 {
-  padding-right: 200px;
-  padding-left: 200px;
+  width: 80%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .bgimg {
@@ -382,17 +384,18 @@ nav {
 }
 nav div {
   background-color: rgb(0, 0, 0);
-  height: 120px;
+  height: 150px !important;
 }
 nav div ul li a {
-  color: rgba(185, 175, 175, 0.932) !important;
+  color: rgba(255, 255, 255, 0.932) !important;
   padding-left: 3rem !important;
 }
 nav div img {
-  height: 43px;
-  width: 100px;
+  height: 98px;
+  width: 169px;
   margin-left: 10px;
-  border-radius: 50px;
+  border-radius: 8px;
+  margin: 24px;
 }
 
 .btn-outline-success {
@@ -404,6 +407,7 @@ nav div img {
 }
 
 .bgcolornav {
+  margin-top: 50px;
   height: 45px;
   background-color: #6635dc;
   width: 100%;
@@ -417,7 +421,7 @@ nav div img {
 }
 
 .navbar-toggler {
-  background-color: rgba(185, 175, 175, 0.932) !important;
+  background-color: rgba(255, 255, 255, 0.932) !important;
 }
 
 .navbar {
@@ -439,7 +443,7 @@ footer div {
   justify-content: space-evenly;
 }
 footer div svg {
-  color: rgba(185, 175, 175, 0.932);
+  color: rgba(255, 255, 255, 0.932);
   height: 80px;
   width: 80px;
 }
@@ -487,16 +491,16 @@ footer div svg {
     margin-top: 44px;
     width: 100%;
   }
-  nav {
-    margin: 0px;
+  h3 {
+    width: 300px;
   }
   nav div {
-    height: 350px;
+    height: 350px !important;
+    position: relative;
   }
   nav div a img {
     height: 300px;
     width: 400px;
-    display: none;
     margin-left: 0px;
     height: 68%;
     width: 100%;
@@ -569,7 +573,7 @@ footer div svg {
     width: 100%;
   }
   img {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 150px;
   }
   .margin-nav, .contenedor5 {
@@ -580,16 +584,17 @@ footer div svg {
     margin-left: 0px;
   }
   footer div {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    font-size: 0.7rem;
   }
   footer div svg {
-    height: 20px;
-    width: 50px;
+    height: 5px;
+    width: 12px;
   }
   .contenedor7 {
     width: 100%;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
     margin: 0px;
   }
