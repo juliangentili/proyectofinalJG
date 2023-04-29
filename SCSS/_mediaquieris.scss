@@ -19,16 +19,35 @@
     
 main{overflow-x: hidden}
 p{text-align: center;
-margin-left: 500px;
-margin-right: 500px;}
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-left: 26px;
+  text-align: center;
+  width: 300px !important;
+  font-size: 2rem;}
 
-h1 , h2{margin-top: 44px;}
+h1 , h2{margin-top: 44px;
+width: 100%;}
+
+
+ nav{margin: 0px;
+
+        div{ height: 350px;
+            a{
+            
+            img{height: 300px;
+                 width: 400px;
+                 display: none;
+                 margin-left: 0px;
+                 height: 68%;
+                 width: 100%;
+                 max-width: 100%;
+                 max-height: 100%;
+                 }
+                }
+            }
+    }
     
-nav div a img{margin-left: 0px;
-    height: 68%;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;}
                 
 footer div{flex-direction: column;
                 align-items: center;}
@@ -37,105 +56,106 @@ footer div{flex-direction: column;
 
                 
 .Dibumartinez{grid-area: dibumartinez;
-             width: 100%;
-            height: 279px;
+             width: 300px;
+            height: 300px;
                 }
 
 .nicootamendi{
             grid-area: nicootamendi;
-            width: 100%;
-            height: 279px;
+            width: 300px;
+            height: 300px;
                 }
                 
 .cutiromero{
             grid-area: cutiromero;
-            width: 100%;
-            height: 279px;
+            width: 300px;
+            height: 300px;
                 }
  .rodridepaul{
             grid-area: rodridepaul;
-            width: 100%;
-            height: 279px;
+            width: 300px;
+            height: 300px;
                 }
 
 .julianalvarez{
             grid-area: julianalvarez;
-            width: 100%;
-            height: 279px;}
+            width: 300px;
+            height: 300px;}
                 
 .leomessi{
             grid-area: leomessi;
-            width: 100%;
-            height: 279px;
+            width: 300px;
+            height: 300px;
                 }
 
+.container-fluid,{height: 50px;}                
+
+.bgcolornav{font-size: 1.2rem;
+height: 40px;
+line-height: 10px}
 
 
-img.foto_product {border-radius:8%;
-      height: 20%;
-      max-width: 150px;}
+img.foto_product {margin: 20px 80px;
+    height: 200px;
+    width: 200px;}
 
 .productosfyq figure { width: 38%;
                         margin-top: 100px;
-                    margin-bottom: 150px;}
+                    margin-bottom: 150px;
+                button{margin:10px 100px
+
+                }
+            }
                 
 
 
 .contenedor{height: 800%;
                         width: 80%;}
                 
-.grid{display: block;
-     flex-direction: column;}
+.grid{ display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       width: 100%;
+       }
 
-p{margin-left: 26px;
-  box-sizing: border-box;
-  text-align: center;
-width: 80%;}
 
-h2{display: block;}
 
-img{max-width: 100%;
-     max-height: 100%;}
 
-     .margin-nav{height:50px;
+
+img{margin-top: 150px;
+margin-bottom: 150px;}
+
+.margin-nav{height:50px;
      padding-bottom: 10px;}
 
-footer div svg{height: 20px;
-                width: 50px;}
+
 
 main section figure p {margin-left: 0px;}
 
 footer{
-    div{ 
+    div{
         flex-direction: column; align-items: center;
        svg
          {height: 20px;
-        width: 50px;}
+         width: 50px;}
     }
 }
 
-nav div img{height: 118%;
-             width: 129%;
-             max-width: 100%;
-             max-height: 100%;}
-
 
 .contenedor7{width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
+    height: 300px;
+    object-fit: cover;
+margin: 0px;}
 
 .conteiner8 img {width: 100%;}
 
 .productosfyq figure{width: 100%;}
 
-img.foto_product{height: 100%;
-                 width: 100%;
-                 max-width: 100%;
-                 max-height: 300px;
-}
+
+
+
+
+
                         
 table{width: 100%;
      height: 137px;;
@@ -147,6 +167,8 @@ table{width: 100%;
 .contenedor4{display: block;
               width: 100%;}
 
+.btn-outline-success{display: none !important;}
+                           
 .contenedor_1 {
                 display: flex;
                 flex-wrap: wrap;
@@ -166,9 +188,62 @@ height: 10px;}
 
 
 
+// responsive para tabletas
 
 
 
 
 
-                
+@media only screen and (max-width: 768px){
+    .grid{display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;}
+
+
+    
+
+
+
+
+footer{font-size: 1.2rem;
+    div {
+        svg{
+        color: rgb(255, 255, 255);
+        height: 40px;
+        width: 20px;}
+        }
+        }
+img{width: 100%;}
+
+
+img.foto_product {margin: 2px;
+    margin-left: 0;
+    height: 235px;
+    width: 100%}
+
+.conteiner_8 {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+p{ margin:10px 30px;
+width: 100%;}   
+.contenedor_1 {
+    display: block;}
+textarea{width: 300px;
+margin-left: 40px !important;
+height: 120px;}
+
+div iframe  {margin-left: 30px;
+    width: 340px;
+height: 340px;}
+
+
+
+
+
+}                    

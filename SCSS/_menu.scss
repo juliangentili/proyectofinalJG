@@ -8,10 +8,11 @@ main iframe{margin-top: 100px;}
 
 table{width: 100%;
 height: 300px;
-background-color: yellow;
+background-color: rgb(255, 255, 255);
     color: rgb(8, 8, 8);
     font-family: "nunito";
     font-size: 3rem;
+    margin-bottom: 70px;
 }    
 label {color: rgb(226, 17, 17);
     font-size: 2rem;}
@@ -96,7 +97,7 @@ margin-top: 40px;}
 //tutores estos dos propiedades se compilan pero no se ejecutan 
 .navbar-light.navbar-toggler {
     color: rgba(247, 1, 1, 0.55);
-    border-color: rgba(71, 1, 1, 0.1);
+    border-color: $bgcolor2;
     background-color: rgb(224, 11, 11);
 }
 
@@ -105,11 +106,12 @@ margin-top: 40px;}
     position: absolute;}
 
     //
+.contenedor4 {margin-top: 50px};
 
 .contenedor7{
-    width: 63%;
-    height: 448px;
-    margin-left: 16%;
+    width: 95%;
+    height: 1000px;
+    margin-left: 40px;
     margin-top: 2%;
     margin-bottom: 3%;}
 
@@ -135,6 +137,13 @@ justify-content: center;
 margin-top: 150px;
 margin-bottom: 80px;}
 
+.productosfyq figure figcaption {background-color: orangered;
+    width: 150px;
+    color: #000000;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;}
+
 div.contenedor_2{margin-top: 100px;
     font-family:'Dosis', sans-serif;
     font-size: 2rem;}
@@ -142,7 +151,8 @@ div.contenedor_2{margin-top: 100px;
     
     
     
-img.foto_product{
+img.foto_product{margin-left: 100px;
+        
         height: 250px;
         width: 250px;
     }
@@ -172,7 +182,7 @@ grid-template-areas:
  "leomessi leomessi";}
 
 
-.bg-color{color: blue;}
+.bg-color{color: rgb(59, 0, 61);}
 
 
 .Dibumartinez{
@@ -210,14 +220,16 @@ grid-template-areas:
 }
 
 
+.w-100{
+padding-right: 200px;
+padding-left: 200px;}
 
-
-.bgimg{background-image: url(../IMG/img_picadas1.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px; color: rgb(252, 248, 10);width: 100%;height: 300px;}
-.bgimg2{background-image: url(../IMG/img_picadas2.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
-.bgimg3{background-image: url(../IMG/img_picadas3.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
-.bgimg4{background-image: url(../IMG/img_picadas4.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
-.bgimg5{background-image: url(../IMG/img_picadas5.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
-.bgimg6{background-image: url(../IMG/img_picadas6.jpg);font-size: 4rem; text-decoration: underline;margin-top: 150px;color: rgb(252, 248, 10);width: 100%;height: 300px}
+.bgimg{background-image: url(../IMG/img_picadas1.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px; color: rgb(0, 0, 0);width: 100%;height: 300px; background-repeat: no-repeat;}
+.bgimg2{background-image: url(../IMG/img_picadas2.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
+.bgimg3{background-image: url(../IMG/img_picadas3.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
+.bgimg4{background-image: url(../IMG/img_picadas4.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
+.bgimg5{background-image: url(../IMG/img_picadas5.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
+.bgimg6{background-image: url(../IMG/img_picadas6.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;} 
 
 
 

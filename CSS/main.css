@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: rgb(163, 167, 134) !important;
+  background-color: rgba(185, 175, 175, 0.932) !important;
 }
 
 p {
@@ -22,20 +22,39 @@ p {
 
 h1, h2 {
   font-family: "nunito", sans-serif;
-  font-weight: 800;
+  font-weight: 800 !important;
   font-size: 4.5rem;
   color: rgb(0, 0, 0);
   text-align: center;
   margin-top: 37px;
   margin-bottom: 25px;
+  margin: auto;
+  background-color: #6a00f7;
+  font-size: 2.5rem;
+  width: 495px;
+  border-radius: 5px;
 }
 
 h3 {
-  margin: 50px;
-  font-size: 4.5rem !important;
+  font-family: "nunito", sans-serif;
+  font-size: 4rem !important;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100%;
+  line-height: 4rem;
+  background-color: #6635dc;
+  font-size: 2.5rem;
+  width: 495px;
+  border-radius: 5px;
+  margin: auto !important;
+}
+
+header {
+  display: inline-block;
+  background-color: #6635dc;
+  position: relative;
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  margin: 50px;
 }
 
 main form {
@@ -49,10 +68,11 @@ main iframe {
 table {
   width: 100%;
   height: 300px;
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
   color: rgb(8, 8, 8);
   font-family: "nunito";
   font-size: 3rem;
+  margin-bottom: 70px;
 }
 
 label {
@@ -145,22 +165,25 @@ div.text_center {
   align-items: center;
 }
 
-
 .navbar-light.navbar-toggler {
-  color: rgba(253, 0, 0, 0.55);
-  border-color: rgba(71, 1, 1, 0.1);
+  color: rgba(247, 1, 1, 0.55);
+  border-color: #6635dc;
   background-color: rgb(224, 11, 11);
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-  background-color: rgb(10, 10, 10) !important;
+  background-color: black !important;
   position: absolute;
 }
 
+.contenedor4 {
+  margin-top: 50px;
+}
+
 .contenedor7 {
-  width: 63%;
-  height: 448px;
-  margin-left: 16%;
+  width: 95%;
+  height: 1000px;
+  margin-left: 40px;
   margin-top: 2%;
   margin-bottom: 3%;
 }
@@ -200,6 +223,15 @@ div.text_center {
   margin-bottom: 80px;
 }
 
+.productosfyq figure figcaption {
+  background-color: orangered;
+  width: 150px;
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
 div.contenedor_2 {
   margin-top: 100px;
   font-family: "Dosis", sans-serif;
@@ -207,6 +239,7 @@ div.contenedor_2 {
 }
 
 img.foto_product {
+  margin-left: 100px;
   height: 250px;
   width: 250px;
 }
@@ -233,7 +266,7 @@ img.foto_product {
 }
 
 .bg-color {
-  color: blue;
+  color: rgb(59, 0, 61);
 }
 
 .Dibumartinez {
@@ -272,64 +305,75 @@ img.foto_product {
   height: 200px;
 }
 
+.w-100 {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
 .bgimg {
   background-image: url(../IMG/img_picadas1.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 .bgimg2 {
   background-image: url(../IMG/img_picadas2.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 .bgimg3 {
   background-image: url(../IMG/img_picadas3.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 .bgimg4 {
   background-image: url(../IMG/img_picadas4.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 .bgimg5 {
   background-image: url(../IMG/img_picadas5.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 .bgimg6 {
   background-image: url(../IMG/img_picadas6.jpg);
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-decoration: underline;
   margin-top: 150px;
-  color: rgb(252, 248, 10);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 300px;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -338,9 +382,10 @@ nav {
 }
 nav div {
   background-color: rgb(0, 0, 0);
+  height: 120px;
 }
 nav div ul li a {
-  color: rgb(255, 255, 255) !important;
+  color: rgba(185, 175, 175, 0.932) !important;
   padding-left: 3rem !important;
 }
 nav div img {
@@ -350,12 +395,37 @@ nav div img {
   border-radius: 50px;
 }
 
+.btn-outline-success {
+  display: none;
+}
+
+.me-2 {
+  margin: 1px 0px;
+}
+
+.bgcolornav {
+  height: 45px;
+  background-color: #6635dc;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 38px;
+}
+
 .nav-link {
   margin-left: 80px;
 }
 
 .navbar-toggler {
-  background-color: rgb(255, 255, 255) !important;
+  background-color: rgba(185, 175, 175, 0.932) !important;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar > .container {
+  height: 500px;
 }
 
 footer {
@@ -369,7 +439,7 @@ footer div {
   justify-content: space-evenly;
 }
 footer div svg {
-  color: rgb(255, 255, 255);
+  color: rgba(185, 175, 175, 0.932);
   height: 80px;
   width: 80px;
 }
@@ -408,11 +478,25 @@ footer div svg {
     text-align: center;
     margin-left: 500px;
     margin-right: 500px;
+    margin-left: 26px;
+    text-align: center;
+    width: 300px !important;
+    font-size: 2rem;
   }
   h1, h2 {
     margin-top: 44px;
+    width: 100%;
+  }
+  nav {
+    margin: 0px;
+  }
+  nav div {
+    height: 350px;
   }
   nav div a img {
+    height: 300px;
+    width: 400px;
+    display: none;
     margin-left: 0px;
     height: 68%;
     width: 100%;
@@ -425,72 +509,72 @@ footer div svg {
   }
   .Dibumartinez {
     grid-area: dibumartinez;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
   }
   .nicootamendi {
     grid-area: nicootamendi;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
   }
   .cutiromero {
     grid-area: cutiromero;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
   }
   .rodridepaul {
     grid-area: rodridepaul;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
   }
   .julianalvarez {
     grid-area: julianalvarez;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
   }
   .leomessi {
     grid-area: leomessi;
-    width: 100%;
-    height: 279px;
+    width: 300px;
+    height: 300px;
+  }
+  .container-fluid {
+    height: 50px;
+  }
+  .bgcolornav {
+    font-size: 1.2rem;
+    height: 40px;
+    line-height: 10px;
   }
   img.foto_product {
-    border-radius: 8%;
-    height: 20%;
-    max-width: 150px;
+    margin: 20px 80px;
+    height: 200px;
+    width: 200px;
   }
   .productosfyq figure {
     width: 38%;
     margin-top: 100px;
     margin-bottom: 150px;
   }
+  .productosfyq figure button {
+    margin: 10px 100px;
+  }
   .contenedor {
     height: 800%;
     width: 80%;
   }
   .grid {
-    display: block;
-    flex-direction: column;
-  }
-  p {
-    margin-left: 26px;
-    box-sizing: border-box;
-    text-align: center;
-    width: 80%;
-  }
-  h2 {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
   }
   img {
-    max-width: 100%;
-    max-height: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
   .margin-nav, .contenedor5 {
     height: 50px;
     padding-bottom: 10px;
-  }
-  footer div svg {
-    height: 20px;
-    width: 50px;
   }
   main section figure p {
     margin-left: 0px;
@@ -503,30 +587,17 @@ footer div svg {
     height: 20px;
     width: 50px;
   }
-  nav div img {
-    height: 118%;
-    width: 129%;
-    max-width: 100%;
-    max-height: 100%;
-  }
   .contenedor7 {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0px;
   }
   .conteiner8 img {
     width: 100%;
   }
   .productosfyq figure {
     width: 100%;
-  }
-  img.foto_product {
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    max-height: 300px;
   }
   table {
     width: 100%;
@@ -537,6 +608,9 @@ footer div svg {
   .contenedor4 {
     display: block;
     width: 100%;
+  }
+  .btn-outline-success {
+    display: none !important;
   }
   .contenedor_1 {
     display: flex;
@@ -555,6 +629,55 @@ footer div svg {
     height: 400px;
     margin: 57px 0px;
     padding: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  footer div svg {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 20px;
+  }
+  img {
+    width: 100%;
+  }
+  img.foto_product {
+    margin: 2px;
+    margin-left: 0;
+    height: 235px;
+    width: 100%;
+  }
+  .conteiner_8 {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  p {
+    margin: 10px 30px;
+    width: 100%;
+  }
+  .contenedor_1 {
+    display: block;
+  }
+  textarea {
+    width: 300px;
+    margin-left: 40px !important;
+    height: 120px;
+  }
+  div iframe {
+    margin-left: 30px;
+    width: 340px;
+    height: 340px;
   }
 }
 

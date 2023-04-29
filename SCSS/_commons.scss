@@ -5,7 +5,7 @@ html{
     font-size: 62.5%;
 }
 
-body{ background-color:$bgcolor !important} 
+body{ background-color:$segundoColor !important} 
 
 
 p{font-family: $font2;
@@ -20,22 +20,38 @@ p{font-family: $font2;
 
 
 h1,h2{font-family: $font;
-    font-weight: 800;
+    font-weight: 800 !important;
     font-size:$fontSizeh;
     color:$mainColor;
     text-align: center;
     margin-top: 37px;
     margin-bottom: 25px;
+    margin: auto;
+    background-color: #6a00f7;
+    font-size: 2.5rem;
+    width: 495px;
+    border-radius: 5px;
 }
 
-h3 {
-    margin: 50px;
-    font-size:$fontSizeh !important;
+
+h3 {font-family: $font;
+    font-size:4rem !important ;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100%;
+    line-height: 4rem ;
+    background-color: $bgcolor2 ;
+    font-size: 2.5rem;
+    width: 495px;
+    border-radius: 5px;
+    margin: auto !important;
 }
         
+header{display: inline-block;
+      background-color:$bgcolor2 ;
+      position: relative;
+      width: 100%;
+      font-size: 4rem;
+      text-align: center;
+      margin: 50px;}
 
 
 
