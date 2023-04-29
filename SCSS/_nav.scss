@@ -5,7 +5,7 @@ nav {
     
  
     div {background-color: $mainColor;
-         height: 120px;  
+         height: 150px;  
         ul
          {li
             {a
@@ -17,7 +17,8 @@ nav {
     img{height: 43px;
       width: 100px;
     margin-left: 10px;
-    border-radius: 50px;}
+    border-radius: 50px;
+    display: none;}
   }
 }
   
