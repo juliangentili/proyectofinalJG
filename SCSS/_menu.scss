@@ -1,7 +1,14 @@
-
+*{box-sizing: border-box;}
 
 main form{margin-top: 100px;}
 main iframe{margin-top: 100px;}
+main img {width: 100%;
+    height: 100%;
+    padding: 20px;
+    object-fit: cover;
+    //filter: grayscale(1);
+   }
+main img:hover{filter: none;}    
 
 
 
@@ -12,7 +19,7 @@ table{width: 80%;
     color: rgb(8, 8, 8);
     font-family: "nunito";
     font-size: 3rem;
-    margin-left: 110px;
+    margin: 7% 10%;
     margin-bottom: 70px;
 }    
 
@@ -135,10 +142,8 @@ margin-top: 40px;}
 
 .contenedor_2{margin-top: 90px;}
 
-.contenedor_3{display: flex;
-justify-content: center;
-margin-top: 150px;
-margin-bottom: 80px;}
+.contenedor_3{margin: 5% 26%;
+width: 50%;}
 
 .productosfyq figure figcaption {background-color: orangered;
     width: 150px;
@@ -169,70 +174,35 @@ img.foto_product{margin-left: 100px;
 
 // grid de picadas // 
 
-.grid{
+#tienda{margin: 10% 15%;
     display: grid;
-    justify-content:center;
-    text-align: center;
-grid-gap: 50px;}
-
-.grid_filas_columnas{
-    grid-template-columns: 500px 500px;
-grid-template-rows: 300px 300px 300px 300px  ;
-grid-template-areas:
- "dibumartinez dibumartinez"
- "nicootamendi cutiromero"
- "rodridepaul julianalvarez"
- "leomessi leomessi";}
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-areas:
+    "img img"
+    "img2 img3"
+    "img4 img5"
+    "img6 img6";
+    }
 
 
-.bg-color{color: rgb(59, 0, 61);}
-
-
-.Dibumartinez{
-    grid-area: dibumartinez;
-    width: 100px;
-    height: 200px;
-}
-.nicootamendi{
-    grid-area: nicootamendi;
-    width: 100px;
-    height: 200px;
-}
-
-.cutiromero{
-    grid-area: cutiromero;
-    width: 100px;
-    height: 200px;
-}
-.rodridepaul{
-    grid-area: rodridepaul;
-    width: 100px;
-    height: 200px;
-
-}
-.julianalvarez{
-    grid-area: julianalvarez;
-    width: 100px;
-    height: 200px;}
-
-.leomessi{
-    grid-area: leomessi;
-    width: 100px;
-    height: 200px;
- 
-}
 
 
 .w-100{width: 80%;
 padding-right: 20%;
 padding-left: 20%;}
 
-.bgimg{background-image: url(../IMG/img_picadas1.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px; color: rgb(0, 0, 0);width: 100%;height: 300px; background-repeat: no-repeat;}
-.bgimg2{background-image: url(../IMG/img_picadas2.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
-.bgimg3{background-image: url(../IMG/img_picadas3.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
-.bgimg4{background-image: url(../IMG/img_picadas4.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
-.bgimg5{background-image: url(../IMG/img_picadas5.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;}
-.bgimg6{background-image: url(../IMG/img_picadas6.jpg);font-size: 1.5rem; text-decoration: underline;margin-top: 150px;color: rgb(0, 0, 0);width: 100%;height: 300px;background-repeat: no-repeat;} 
+.img{grid-area: img;}
+
+.img2{grid-area: img2;}
+
+.img3{grid-area: img3;}
+
+.img4{grid-area: img4;}
+
+.img5{grid-area: img5;}
+
+.img6{grid-area: img6;} 
 
 
 

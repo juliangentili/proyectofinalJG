@@ -57,12 +57,27 @@ header {
   margin: 50px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 main form {
   margin-top: 100px;
 }
 
 main iframe {
   margin-top: 100px;
+}
+
+main img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  object-fit: cover;
+}
+
+main img:hover {
+  filter: none;
 }
 
 table {
@@ -72,7 +87,7 @@ table {
   color: rgb(8, 8, 8);
   font-family: "nunito";
   font-size: 3rem;
-  margin-left: 110px;
+  margin: 7% 10%;
   margin-bottom: 70px;
 }
 
@@ -218,10 +233,8 @@ div.text_center {
 }
 
 .contenedor_3 {
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
-  margin-bottom: 80px;
+  margin: 5% 26%;
+  width: 50%;
 }
 
 .productosfyq figure figcaption {
@@ -253,57 +266,12 @@ img.foto_product {
   align-items: center;
 }
 
-.grid {
+#tienda {
+  margin: 10% 15%;
   display: grid;
-  justify-content: center;
-  text-align: center;
-  grid-gap: 50px;
-}
-
-.grid_filas_columnas {
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 300px 300px 300px 300px;
-  grid-template-areas: "dibumartinez dibumartinez" "nicootamendi cutiromero" "rodridepaul julianalvarez" "leomessi leomessi";
-}
-
-.bg-color {
-  color: rgb(59, 0, 61);
-}
-
-.Dibumartinez {
-  grid-area: dibumartinez;
-  width: 100px;
-  height: 200px;
-}
-
-.nicootamendi {
-  grid-area: nicootamendi;
-  width: 100px;
-  height: 200px;
-}
-
-.cutiromero {
-  grid-area: cutiromero;
-  width: 100px;
-  height: 200px;
-}
-
-.rodridepaul {
-  grid-area: rodridepaul;
-  width: 100px;
-  height: 200px;
-}
-
-.julianalvarez {
-  grid-area: julianalvarez;
-  width: 100px;
-  height: 200px;
-}
-
-.leomessi {
-  grid-area: leomessi;
-  width: 100px;
-  height: 200px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-areas: "img img" "img2 img3" "img4 img5" "img6 img6";
 }
 
 .w-100 {
@@ -312,70 +280,28 @@ img.foto_product {
   padding-left: 20%;
 }
 
-.bgimg {
-  background-image: url(../IMG/img_picadas1.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img {
+  grid-area: img;
 }
 
-.bgimg2 {
-  background-image: url(../IMG/img_picadas2.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img2 {
+  grid-area: img2;
 }
 
-.bgimg3 {
-  background-image: url(../IMG/img_picadas3.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img3 {
+  grid-area: img3;
 }
 
-.bgimg4 {
-  background-image: url(../IMG/img_picadas4.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img4 {
+  grid-area: img4;
 }
 
-.bgimg5 {
-  background-image: url(../IMG/img_picadas5.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img5 {
+  grid-area: img5;
 }
 
-.bgimg6 {
-  background-image: url(../IMG/img_picadas6.jpg);
-  font-size: 1.5rem;
-  text-decoration: underline;
-  margin-top: 150px;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
+.img6 {
+  grid-area: img6;
 }
 
 nav {
@@ -446,251 +372,6 @@ footer div svg {
   color: rgba(255, 255, 255, 0.932);
   height: 80px;
   width: 80px;
-}
-
-@media only screen and (max-width: 380px) {
-  .grid {
-    display: block;
-  }
-  .grid_filas_columnas {
-    grid-template-columns: 50px;
-    grid-template-rows: 550px 550px 550px 550px 550px 550px;
-    grid-template-areas: "dibumartinez" "nicootamendi" "cutiromero" "rodridepaul" "julianalvarez" "leomessi";
-  }
-  .bgimg {
-    font-size: 1rem;
-  }
-  .bgimg2 {
-    font-size: 1rem;
-  }
-  .bgimg3 {
-    font-size: 1rem;
-  }
-  .bgimg4 {
-    font-size: 1rem;
-  }
-  .bgimg5 {
-    font-size: 1rem;
-  }
-  .bgimg6 {
-    font-size: 1rem;
-  }
-  main {
-    overflow-x: hidden;
-  }
-  p {
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-left: 26px;
-    text-align: center;
-    width: 300px !important;
-    font-size: 2rem;
-  }
-  h1, h2 {
-    margin-top: 44px;
-    width: 100%;
-  }
-  h3 {
-    width: 300px;
-  }
-  nav div {
-    height: 350px !important;
-    position: relative;
-  }
-  nav div a img {
-    height: 300px;
-    width: 400px;
-    margin-left: 0px;
-    height: 68%;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  table {
-    display: block;
-    margin: 10px 40px;
-    width: 80% !important;
-    height: 199px;
-    font-size: 1rem;
-  }
-  footer div {
-    flex-direction: column;
-    align-items: center;
-  }
-  .Dibumartinez {
-    grid-area: dibumartinez;
-    width: 300px;
-    height: 300px;
-  }
-  .nicootamendi {
-    grid-area: nicootamendi;
-    width: 300px;
-    height: 300px;
-  }
-  .cutiromero {
-    grid-area: cutiromero;
-    width: 300px;
-    height: 300px;
-  }
-  .rodridepaul {
-    grid-area: rodridepaul;
-    width: 300px;
-    height: 300px;
-  }
-  .julianalvarez {
-    grid-area: julianalvarez;
-    width: 300px;
-    height: 300px;
-  }
-  .leomessi {
-    grid-area: leomessi;
-    width: 300px;
-    height: 300px;
-  }
-  .container-fluid {
-    height: 50px;
-  }
-  .bgcolornav {
-    font-size: 1.2rem;
-    height: 40px;
-    line-height: 10px;
-  }
-  img.foto_product {
-    margin: 20px 80px;
-    height: 200px;
-    width: 200px;
-  }
-  .productosfyq figure {
-    width: 38%;
-    margin-top: 100px;
-    margin-bottom: 150px;
-  }
-  .productosfyq figure button {
-    margin: 10px 100px;
-  }
-  .contenedor {
-    height: 800%;
-    width: 80%;
-  }
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-  }
-  img {
-    margin-top: 200px;
-    margin-bottom: 150px;
-  }
-  .margin-nav, .contenedor5 {
-    height: 50px;
-    padding-bottom: 10px;
-  }
-  main section figure p {
-    margin-left: 0px;
-  }
-  footer div {
-    flex-direction: row;
-    align-items: center;
-    font-size: 0.7rem;
-  }
-  footer div svg {
-    height: 5px;
-    width: 12px;
-  }
-  .contenedor7 {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    margin: 0px;
-  }
-  .conteiner8 img {
-    width: 100%;
-  }
-  .productosfyq figure {
-    width: 100%;
-  }
-  table {
-    width: 100%;
-    height: 137px;
-    margin-top: 20px;
-    font-size: 1rem;
-  }
-  .contenedor4 {
-    display: block;
-    width: 100%;
-  }
-  .btn-outline-success {
-    display: none !important;
-  }
-  .contenedor_1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    width: 100%;
-    justify-content: center;
-  }
-  form.contenedor_1 {
-    width: 10px;
-    height: 10px;
-  }
-  .img404 {
-    width: 100%;
-    align-items: center;
-    height: 400px;
-    margin: 57px 0px;
-    padding: 20px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  footer {
-    font-size: 1.2rem;
-  }
-  footer div svg {
-    color: rgb(255, 255, 255);
-    height: 40px;
-    width: 20px;
-  }
-  img {
-    width: 100%;
-  }
-  img.foto_product {
-    margin: 2px;
-    margin-left: 0;
-    height: 235px;
-    width: 100%;
-  }
-  .conteiner_8 {
-    display: flex;
-    align-content: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  p {
-    margin: 10px 30px;
-    width: 100%;
-  }
-  .contenedor_1 {
-    display: block;
-  }
-  textarea {
-    width: 300px;
-    margin-left: 40px !important;
-    height: 120px;
-  }
-  div iframe {
-    margin-left: 30px;
-    width: 340px;
-    height: 340px;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
