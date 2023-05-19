@@ -137,6 +137,11 @@ label {
   margin: 80px 80px;
 }
 
+.error404 {
+  width: 90%;
+  margin-left: 75px;
+}
+
 div.text_center {
   font-size: 3rem;
   margin-top: 40px;
@@ -510,6 +515,10 @@ footer div svg {
   .contenedor4 figcaption {
     font-size: 2rem;
     color: rgb(127, 7, 231);
+  }
+  .error404 {
+    width: 90%;
+    margin-left: 25px;
   }
 }
 
